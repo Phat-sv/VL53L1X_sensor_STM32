@@ -10,4 +10,9 @@ It communicates via I²C and is well-suited for applications such as robotics, d
 * [platform.c](https://github.com/Phat-sv/VL53L1X_sensor_STM32/blob/main/vl53l1_platform.c)
 * [platform.h](https://github.com/Phat-sv/VL53L1X_sensor_STM32/blob/main/vl53l1_platform.h)
 
+You can use these files by **downloading and including them in your STM32 project.**
+Configure your project with a valid **I²C channel**, and update **the pin and port definitions** in [platform.h](https://github.com/Phat-sv/VL53L1X_sensor_STM32/blob/main/vl53l1_platform.h), along with other parameters in **public define area**
+
+
+
 
